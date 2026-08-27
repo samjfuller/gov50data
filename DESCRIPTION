@@ -2,14 +2,15 @@ Package: gov50data
 Title: Datasets for Gov 50
 Version: 0.0.0.9001
 Authors@R: 
-    person("Matthew", "Blackwell", , "mblackwell@gov.harvard.edu", role = c("aut"),
-           comment = c(ORCID = "0000-0002-3689-9527"))
-    person("Sam", "Fuller", , "sfuller@fas.harvard.edu", role = c("cre","ctb"),
-           comment = c(ORCID = "0000-0002-3689-9527"))
+    c(
+      person("Matthew", "Blackwell", , "mblackwell@gov.harvard.edu", role = "aut",
+             comment = c(ORCID = "0000-0002-3689-9527")),
+      person("Sam", "Fuller", , "sfuller@fas.harvard.edu", role = c("cre", "ctb"),
+             comment = c(ORCID = "0000-0002-9670-1092"))
+    )
 Description: A collection of datasets for use in Gov 50 at Harvard University.
 License: MIT + file LICENSE
 Depends: R (>= 3.5)
-Imports: tibble
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1
